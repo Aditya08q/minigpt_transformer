@@ -89,7 +89,7 @@ streamlit run app.py
 ## Model Weights
 
 Due to size constraints, model weights are hosted externally:
- [Download Weights](YOUR_GOOGLE_DRIVE_LINK)
+ [Download Weights](https://drive.google.com/drive/u/0/folders/1KrUOoRCMTAAkUB38MH64LsP46IqnTTTE)
 
 ---
 
