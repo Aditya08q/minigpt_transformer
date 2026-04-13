@@ -1,0 +1,1 @@
+{"VOCAB_SIZE": 54, "EMBED_DIM": 256, "N_HEADS": 8, "N_LAYERS": 6, "FFN_DIM": 1024, "SEQ_LEN": 128, "final_train_loss": 0.9062158465385437, "final_val_loss": 0.9025710225105286}
