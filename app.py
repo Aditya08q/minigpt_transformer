@@ -40,7 +40,7 @@ with st.sidebar:
 | >1.2 | Chaotic |
     """)
 
-# ── Main ────────────────────────────────────────────────
+#  Main
 st.title(" Mini GPT — Story Generator")
 st.caption("4.8M param transformer · TensorFlow + Keras 3 · trained from scratch")
 
