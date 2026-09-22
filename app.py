@@ -8,7 +8,6 @@ st.set_page_config(
     layout     = "wide"
 )
 
-#  Load once 
 @st.cache_resource
 def get_model():
     return load_model()
