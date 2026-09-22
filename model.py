@@ -19,7 +19,6 @@ def load_tokenizer():
     return char2idx, idx2char, tok["vocab_size"]
 
 
-# ── Model definition ────────────────────────────────────
 def make_causal_mask(seq_len):
     mask = tf.linalg.band_part(
         tf.ones((seq_len, seq_len), dtype=tf.bool), -1, 0
