@@ -1,5 +1,5 @@
 
-import streamlit as s
+import streamlit as st
 from model import load_model, generate
 
 st.set_page_config(
