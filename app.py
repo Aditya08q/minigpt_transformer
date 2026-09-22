@@ -14,7 +14,6 @@ def get_model():
 
 model, char2idx, idx2char, cfg = get_model()
 
-#  Sidebar 
 with st.sidebar:
     st.title("Settings")
     temperature = st.slider("Temperature", 0.3, 1.5, 0.8, 0.05)
