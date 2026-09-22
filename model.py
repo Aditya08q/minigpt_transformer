@@ -96,7 +96,6 @@ class MiniGPT(keras.Model):
         return self.lm_head(self.ln_final(x))
 
 
-# ── Load model ──────────────────────────────────────────
 def load_model():
     cfg                        = load_config()
     char2idx, idx2char, vsz    = load_tokenizer()
