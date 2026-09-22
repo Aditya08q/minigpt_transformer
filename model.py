@@ -116,7 +116,7 @@ def load_model():
     return m, char2idx, idx2char, cfg
 
 
-# ── Generation ──────────────────────────────────────────
+
 def generate(model, char2idx, idx2char, cfg,
              prompt, max_new_chars=300,
              temperature=0.8, top_k=40):
