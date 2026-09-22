@@ -47,7 +47,6 @@ col1, col2 = st.columns([1, 1], gap="large")
 with col1:
     st.subheader("Prompt")
 
-    # Quick prompts
     quick_prompts = [
         "once upon a time there was a little girl named lily",
         "tom was sad because he lost his favorite toy",
