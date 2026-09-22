@@ -9,7 +9,6 @@ import keras
 from keras import layers
 
 
-# ── Load config + tokenizer ─────────────────────────────
 def load_config():
     with open("config.json")    as f: return json.load(f)
 
