@@ -87,4 +87,4 @@ with col2:
             c2.metric("Temp", temperature)
             c3.metric("Top-K", top_k if top_k > 0 else "off")
     else:
-        st.info("Pick a prompt and click Generate Story."
+        st.info("Pick a prompt and click Generate Story.")
